@@ -1,0 +1,43 @@
+#tab{
+	background: grey;
+	border-collapse: collapse;
+	margin: 185px auto;
+	border:1px solid black;
+}
+td {
+	padding: 8px;
+}
+input {
+	width: 96%;
+	height: 45px;
+	font-size: 22px;
+	text-align: right;
+}
+#ce{
+	height: 84px;
+	font-size: 12px;
+}
+#cancella{
+	font-size: 58px;
+}
+button {
+  font-size: 22px;	
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #666;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+button:hover {background-color: #ff8000}
+button:active {
+  background-color: #ff8000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
